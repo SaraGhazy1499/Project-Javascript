@@ -364,9 +364,9 @@ productsBox_product_card.append(product_content);
   }
 
 
-     if(exist==0)
+     if(exist==0 && document.getElementById("result-product-box")!=null)
      document.getElementById("result-product-box").innerHTML="No Results";
-     else
+     else if(document.getElementById("result-product-box")!=null)
      document.getElementById("result-product-box").innerHTML="";
 
   }

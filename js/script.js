@@ -1,18 +1,19 @@
 
 
-
-/*window.onscroll=function()
+let nav=document.getElementsByClassName("nav")[0];
+window.onscroll=function()
 {
+    console.log(document.body.scrollTop);
     if (document.body.scrollTop >= 200 ) {
-        myNav.classList.add("nav-colored");
-        myNav.classList.remove("nav-transparent");
+       nav.classList.add("nav-scroll");
+        nav.classList.remove("nav");
     } 
     else {
-        myNav.classList.add("nav-transparent");
-        myNav.classList.remove("nav-colored");
+        nav.classList.add("nav");
+        nav.classList.remove("nav-scroll");
     }
 
-}*/
+}
 
 
 /********************Start cart************************* */

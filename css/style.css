@@ -35,7 +35,7 @@ a{
 
 
 /*********************Start Navbar************************/
-nav
+.nav
 {
     background-color: #00b18f;
 }
@@ -70,6 +70,10 @@ nav
 .navbar button:hover
 {
     color: #78cbcf;
+}
+.nav-scroll
+{
+    background-color: #2ebed8;
 }
 
 
