@@ -3,7 +3,8 @@
 let nav=document.getElementsByClassName("nav")[0];
 window.onscroll=function()
 {
-    console.log(document.body.scrollTop);
+    let x=document.body.scrollTop;
+    console.log(x);
     if (document.body.scrollTop >= 200 ) {
        nav.classList.add("nav-scroll");
         nav.classList.remove("nav");
@@ -14,7 +15,6 @@ window.onscroll=function()
     }
 
 }
-
 
 /********************Start cart************************* */
 function openCart()

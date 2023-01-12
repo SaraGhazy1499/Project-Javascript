@@ -748,7 +748,7 @@ del
     -o-border-radius: 25px;
     padding: 1.5% 6%;
     margin-top: 4%;
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: 500;
     transition:.2s all;
     -webkit-transition:.2s all;
