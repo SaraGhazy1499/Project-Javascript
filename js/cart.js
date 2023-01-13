@@ -86,7 +86,7 @@ function AddToCart(e)
     let boxCart=document.getElementById('cart-box');
 
     let card=document.createElement("div");
-    card.classList.add("col-lg-12","card","mt-4");
+    card.classList.add("col-12","card","mt-4");
     card.id="product"+product.id;
 
       let rowCard=document.createElement("div");
@@ -94,19 +94,19 @@ function AddToCart(e)
 
 
        let img=document.createElement("div");
-       img.classList.add("col-lg-4","col-sm-4");
+       img.classList.add("col-4");
        let contentImg=document.createElement("img");
        contentImg.src="images/"+product.img;
        contentImg.classList.add("img-fluid");
        img.append(contentImg);
 
        let infoProduct=document.createElement("div");
-       infoProduct.classList.add("col-lg-8","col-sm-8","mt-4");
+       infoProduct.classList.add("col-8","mt-4");
        let rowInfoProduct=document.createElement("div");
        rowInfoProduct.classList.add("row");
 
          let info=document.createElement("div");
-         info.classList.add("col-lg-9","col-sm-9");
+         info.classList.add("col-9");
          let nameProduct=document.createElement("h3");
          nameProduct.innerText=product.name;
          let descProduct=document.createElement("p");
@@ -121,7 +121,7 @@ function AddToCart(e)
          info.append(qt);
 
          let removeProduct=document.createElement("div");
-         removeProduct.classList.add("col-lg-2","col-sm-2","mx-1");
+         removeProduct.classList.add("col-2","mx-1");
          let button=document.createElement("button");
          button.classList.add("btn");
          button.id="remove"+product.id;
@@ -190,7 +190,7 @@ if(localStorage.getItem("cart")!=null)
     let boxCart=document.getElementById('cart-box');
 
     let card=document.createElement("div");
-    card.classList.add("col-lg-12","card","mt-4");
+    card.classList.add("col-12","card","mt-4");
     card.id="product"+carts[i].id;
 
       let rowCard=document.createElement("div");
@@ -198,19 +198,19 @@ if(localStorage.getItem("cart")!=null)
 
 
        let img=document.createElement("div");
-       img.classList.add("col-lg-4","col-sm-4");
+       img.classList.add("col-4");
        let contentImg=document.createElement("img");
        contentImg.src="images/"+carts[i].img;
        contentImg.classList.add("img-fluid");
        img.append(contentImg);
 
        let infoProduct=document.createElement("div");
-       infoProduct.classList.add("col-lg-8","col-sm-8","mt-4");
+       infoProduct.classList.add("col-8","mt-4");
        let rowInfoProduct=document.createElement("div");
        rowInfoProduct.classList.add("row");
 
          let info=document.createElement("div");
-         info.classList.add("col-lg-9","col-sm-9");
+         info.classList.add("col-9");
          let nameProduct=document.createElement("h3");
          nameProduct.innerText=carts[i].name;
          let descProduct=document.createElement("p");
@@ -226,7 +226,7 @@ if(localStorage.getItem("cart")!=null)
 
 
          let removeProduct=document.createElement("div");
-         removeProduct.classList.add("col-lg-2","col-sm-2","mx-1");
+         removeProduct.classList.add("col-2","mx-1");
          let button=document.createElement("button");
          button.classList.add("btn");
          button.id="remove"+carts[i].id;

@@ -251,7 +251,7 @@ id=prod[1];
      let productsBox=document.getElementById("product-box");
 
  let productsBox_product=document.createElement("div");
- productsBox_product.classList.add("col-lg-4", "col-md-6", "col-sm-12", "mt-4", "mb-2");
+ productsBox_product.classList.add("col-lg-4", "col-md-6", "col-12", "mt-4", "mb-2");
 
  productsBox.append(productsBox_product);
 
@@ -298,14 +298,14 @@ productsBox_product_card.append(product_content);
  productsBox_product_info.append(productsBox_product_infoRow);
 
  let productsBox_product_infoColumn1=document.createElement("div");
-  productsBox_product_infoColumn1.classList.add("col-lg-6", "mt-3","mb-2");
+  productsBox_product_infoColumn1.classList.add("col-6", "mt-3","mb-2");
  productsBox_product_infoRow.append(productsBox_product_infoColumn1);
  let productsBox_product_infoColumn1_price=document.createElement("p");
  productsBox_product_infoColumn1_price.innerHTML=AllProducts[i].price+" EGP";
  productsBox_product_infoColumn1.append( productsBox_product_infoColumn1_price);
 
  let stars=document.createElement("div");
-  stars.classList.add("col-lg-6","mt-2");
+  stars.classList.add("col-6","mt-2");
   productsBox_product_infoRow.append(stars);
   let star1=document.createElement("i");
   star1.classList.add("fa","fa-star");
@@ -338,7 +338,7 @@ productsBox_product_card.append(product_content);
  product_card_footer.append( product_card_footerRow);
 
  let product_card_footerColumn1=document.createElement("div");
- product_card_footerColumn1.classList.add("col-lg-9", "mt-1");
+ product_card_footerColumn1.classList.add("col-9", "mt-1");
 
  product_card_footerRow.append(product_card_footerColumn1);
 
@@ -353,7 +353,7 @@ productsBox_product_card.append(product_content);
 
 
  let product_card_footerColumn2=document.createElement("div");
- product_card_footerColumn2.classList.add("col-lg-2");
+ product_card_footerColumn2.classList.add("col-2");
  let wish=document.createElement("i")
  wish.classList.add("fa","fa-heart")
  product_card_footerColumn2.append(wish);
