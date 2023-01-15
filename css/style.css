@@ -44,6 +44,7 @@ a{
 {
     font-size: 27px;
     font-weight: 600;
+    color: white;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -73,8 +74,16 @@ a{
 }
 .nav-scroll
 {
-    background-color: #2ebed8;
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 18%);
 }
+
+.nav-scroll .nav-item a ,.nav-scroll button , .nav-scroll .navbar-brand
+{
+    color: #00b18f;
+}
+
+
 
 
 /*******************End Navbar*****************************/

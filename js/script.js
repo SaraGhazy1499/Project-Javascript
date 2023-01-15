@@ -1,16 +1,15 @@
 
-
 let nav=document.getElementsByClassName("nav")[0];
 window.onscroll=function()
 {
-    let x=document.body.scrollTop;
-    console.log(x);
-    if (document.body.scrollTop >= 200 ) {
-       nav.classList.add("nav-scroll");
-        nav.classList.remove("nav");
+   let x=window.pageYOffset;
+    if (x >= 200 ) {
+         nav.classList.add("nav-scroll");
+         
+        // nav.classList.remove("nav");
     } 
     else {
-        nav.classList.add("nav");
+       // nav.classList.add("nav");
         nav.classList.remove("nav-scroll");
     }
 
