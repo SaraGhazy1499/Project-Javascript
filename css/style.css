@@ -721,7 +721,6 @@ del
 {
     position: absolute;
     top:15%; 
-    left: 15%;
     color:white;
     text-align: center;
 }
@@ -729,12 +728,12 @@ del
 .order h3,.order p
 {
     letter-spacing: 5px;
-    line-height: 1.9;
+    line-height: 1.9rem;
 }
 
 .order h5
 {
-    line-height: 1.5;
+    line-height: 1.5rem;
 }
 
 .prespection .content .order button
