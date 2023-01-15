@@ -695,7 +695,24 @@ del
     color:#767676;
 }
 
-
+.row-product img
+{
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.row-product img:hover
+{
+    transition: all .4s ease-in-out;
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+}
 
 
 /*************************End Best Sellers**************************/
@@ -727,7 +744,7 @@ del
 
 .order h3,.order p
 {
-    letter-spacing: 5px;
+    letter-spacing: .3rem;
     line-height: 1.9rem;
 }
 
