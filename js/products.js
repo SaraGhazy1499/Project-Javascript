@@ -195,12 +195,14 @@ id=prod[1];
         document.getElementById("nameCategory").innerHTML="Medications";
         document.getElementById("nameCategory").style.color="#06ab84";
         document.getElementsByClassName("linkproduct")[0].style.color="#00b18f";
+        document.getElementsByClassName("linkproduct")[0].style.fontWeight="700";
         break;
 
     case '2':
         document.getElementById("nameCategory").innerHTML="Vitamines";
         document.getElementById("nameCategory").style.color="#2ebed8";
         document.getElementsByClassName("linkproduct")[1].style.color="#00b18f";
+        document.getElementsByClassName("linkproduct")[1].style.fontWeight="700";
          break;
 
     case '3':
@@ -208,6 +210,7 @@ id=prod[1];
           document.getElementById("nameCategory").innerHTML="Skin Care";
           document.getElementById("nameCategory").style.color="#fcac2a";
           document.getElementsByClassName("linkproduct")[2].style.color="#00b18f";
+          document.getElementsByClassName("linkproduct")[2].style.fontWeight="700";
            break;
 
 
@@ -215,18 +218,21 @@ id=prod[1];
         document.getElementById("nameCategory").innerHTML="Hair Care";
         document.getElementById("nameCategory").style.color="#78cbcf";
         document.getElementsByClassName("linkproduct")[3].style.color="#00b18f";
+        document.getElementsByClassName("linkproduct")[3].style.fontWeight="700";
         break;
 
         case '5':
             document.getElementById("nameCategory").innerHTML="General Use";
             document.getElementById("nameCategory").style.color="#81c143";
             document.getElementsByClassName("linkproduct")[4].style.color="#00b18f";
+            document.getElementsByClassName("linkproduct")[4].style.fontWeight="700";
             break;  
 
         case '6':
                 document.getElementById("nameCategory").innerHTML="Mother / Baby Care";
                 document.getElementById("nameCategory").style.color="#f7a5ae";
                 document.getElementsByClassName("linkproduct")[5].style.color="#00b18f";
+                document.getElementsByClassName("linkproduct")[5].style.fontWeight="700";
                 break; 
                 
                 
@@ -234,12 +240,14 @@ id=prod[1];
         document.getElementById("nameCategory").innerHTML="Perfumes";
         document.getElementById("nameCategory").style.color="#7d59a3";
         document.getElementsByClassName("linkproduct")[6].style.color="#00b18f";
+        document.getElementsByClassName("linkproduct")[6].style.fontWeight="700";
         break;
 
         case '8':
         document.getElementById("nameCategory").innerHTML="Medical Supplies";
         document.getElementById("nameCategory").style.color="#ee5741";
         document.getElementsByClassName("linkproduct")[7].style.color="#00b18f";
+        document.getElementsByClassName("linkproduct")[7].style.fontWeight="700";
         break;
   }
 

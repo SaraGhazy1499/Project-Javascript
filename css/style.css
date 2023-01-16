@@ -83,7 +83,10 @@ a{
     color: #00b18f;
 }
 
-
+.nav-scroll .nav-item a:hover
+{
+    color: #78cbcf;
+}
 
 
 /*******************End Navbar*****************************/
@@ -578,6 +581,34 @@ del
     padding-right: 1%;
 }
 
+ .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .2
+
+    } 
+    to {
+        opacity: 1;
+    }
+  }
+ 
+  #prev , #next
+  {
+    width: 60%;
+    height: 6vh;
+    background-color: #00b18f;
+    color: white;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-weight: 600;
+    font-size: 18px;
+}
 
 /*********************Start Best Sellers*************************/
 .best-sellers .row-product
