@@ -106,6 +106,17 @@ function userStatus()
     }
     };
 
+
+    if(localStorage.getItem("username")!=null)
+    {
+    if(document.getElementById("userName")!=null)
+    {
+    document.getElementById("userName").value=localStorage.getItem("username");
+    document.getElementById("password").value=localStorage.getItem("password");
+    document.getElementById("check").checked=true;
+    }
+    }
+
   }
 
 }
@@ -126,10 +137,12 @@ function infoLogin()
     {
         localStorage.setItem("username",username);
         localStorage.setItem("password",password);  
+        localStorage.setItem("checked",true);  
     }else if(localStorage.getItem("username")!=null)
     {
         localStorage.removeItem("username");
         localStorage.removeItem("password");
+        localStorage.removeItem("checked");
     }
 
     document.getElementById("user").innerHTML=sessionStorage.getItem("username");
